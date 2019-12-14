@@ -1,0 +1,174 @@
+Microsoft Windows [versão 10.0.17763.914]
+(c) 2018 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Aluno>py
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+3
+5
+>>> 70/85
+0.8235294117647058
+>>> 5**8
+390625
+>>> "Myrlana"
+'Myrlana'
+>>> "Olá" + "Myrlana"
+'OláMyrlana'
+>>> "Oi"*3
+'OiOiOi'
+>>> 8*5/9
+4.444444444444445
+>>> "Marca d\' água"
+"Marca d' água"
+>>> "myrlana", upper()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'upper' is not defined
+>>> "myrlana".upper()
+'MYRLANA'
+>>> len('myrlana')
+7
+>>> len(542996663)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: object of type 'int' has no len()
+>>> len(str(542996663))
+9
+>>> int('hello')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+>>> name = "Ola"
+>>> name
+'Ola'
+>>> name = "pandora"
+>>> name
+'pandora'
+>>> len(name)
+7
+>>> a=4
+>>> b=6
+>>> a*b
+24
+>>> city="tokyo"
+>>> ctiy
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ctiy' is not defined
+>>> name
+'pandora'
+>>> print(name)
+pandora
+>>> []
+[]
+>>> lottery=[3,15,26,30,40]
+>>> len(lottery)
+5
+>>> lottery.sort()
+>>> print(lottery)
+[3, 15, 26, 30, 40]
+>>> lottery.reserve()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'reserve'
+>>> lottery.reverse()
+>>> print(lottery)
+[40, 30, 26, 15, 3]
+>>> lottery.append(108)
+>>> print(lottery)
+[40, 30, 26, 15, 3, 108]
+>>> lottery.sort()
+>>> print(lottery)
+[3, 15, 26, 30, 40, 108]
+>>> print(lottery[2])
+26
+>>> print(lottery)
+[3, 15, 26, 30, 40, 108]
+>>> print(lottery[3])
+30
+>>> lottery.pop(3)
+30
+>>> print(lottery)
+[3, 15, 26, 40, 108]
+>>> print(lottery[-1])
+108
+>>> print(lottery[10])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> {}
+{}
+>>> participant={'name':'myrlana', 'country':'brazil', 'favorite_numbers': [5,15,25]}
+>>> print(participant['name'])
+myrlana
+>>> participant['age']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'age'
+>>> participant[favorite_food]='macarrão'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'favorite_food' is not defined
+>>> participant['favorite_food']='macarrão'
+>>> len(participant)
+4
+>>> participant.pop('favorite_food')
+'macarrão'
+>>> participant
+{'name': 'myrlana', 'country': 'brazil', 'favorite_numbers': [5, 15, 25]}
+>>> partcipant.pop(name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'partcipant' is not defined
+>>> participant.pop(name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'pandora'
+>>> participant['country']=germany
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'germany' is not defined
+>>> participant['country']='germany'
+>>> print(participant)
+{'name': 'myrlana', 'country': 'germany', 'favorite_numbers': [5, 15, 25]}
+>>> 6>4
+True
+>>> 9,5
+(9, 5)
+>>> 9<5
+False
+>>> 5.2*1
+5.2
+>>> 5>2*1
+True
+>>> 2==2
+True
+>>> 5!=6
+True
+>>> 5>=4
+True
+>>> 6<=6
+True
+>>> 6>3 and 4<8
+True
+>>> 6>=5 or 3<=2
+True
+>>> 5>"pandora"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '>' not supported between instances of 'int' and 'str'
+>>> b=True
+>>> b
+True
+>>> b=2>5
+>>> b
+False
+>>> True and True
+True
+>>> False and True
+False
+>>> True or 1==1
+True
+>>> False or 1!=2
+True
+>>>
